@@ -9,95 +9,30 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as SucheRouteImport } from './routes/suche'
-import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
-import { Route as RssDotxmlRouteImport } from './routes/rss[.]xml'
-import { Route as RobotsDottxtRouteImport } from './routes/robots[.]txt'
-import { Route as RedaktionRouteImport } from './routes/redaktion'
-import { Route as PresseaussendungenRouteImport } from './routes/presseaussendungen'
-import { Route as PortalRouteImport } from './routes/portal'
-import { Route as NewsSitemapDotxmlRouteImport } from './routes/news-sitemap[.]xml'
-import { Route as NachrichtenRouteImport } from './routes/nachrichten'
-import { Route as LoginRouteImport } from './routes/login'
-import { Route as KennzeichnungRouteImport } from './routes/kennzeichnung'
-import { Route as ImpressumRouteImport } from './routes/impressum'
-import { Route as EinreichenRouteImport } from './routes/einreichen'
-import { Route as DatenschutzRouteImport } from './routes/datenschutz'
-import { Route as AdminRouteImport } from './routes/admin'
 import { Route as IndexRouteImport } from './routes/index'
-import { Route as RubrikSlugRouteImport } from './routes/rubrik.$slug'
-import { Route as BundeslandSlugRouteImport } from './routes/bundesland.$slug'
+import { Route as AdminRouteImport } from './routes/admin'
+import { Route as DatenschutzRouteImport } from './routes/datenschutz'
+import { Route as EinreichenRouteImport } from './routes/einreichen'
+import { Route as ImpressumRouteImport } from './routes/impressum'
+import { Route as KennzeichnungRouteImport } from './routes/kennzeichnung'
+import { Route as LoginRouteImport } from './routes/login'
+import { Route as NachrichtenRouteImport } from './routes/nachrichten'
+import { Route as NewsSitemapDotxmlRouteImport } from './routes/news-sitemap[.]xml'
+import { Route as PortalRouteImport } from './routes/portal'
+import { Route as PresseaussendungenRouteImport } from './routes/presseaussendungen'
+import { Route as RedaktionRouteImport } from './routes/redaktion'
+import { Route as RobotsDottxtRouteImport } from './routes/robots[.]txt'
+import { Route as RssDotxmlRouteImport } from './routes/rss[.]xml'
+import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
+import { Route as SucheRouteImport } from './routes/suche'
 import { Route as ArtikelSlugRouteImport } from './routes/artikel.$slug'
+import { Route as BundeslandSlugRouteImport } from './routes/bundesland.$slug'
+import { Route as RubrikSlugRouteImport } from './routes/rubrik.$slug'
 import { Route as ApiV1BeitraegeRouteImport } from './routes/api.v1.beitraege'
 
-const SucheRoute = SucheRouteImport.update({
-  id: '/suche',
-  path: '/suche',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
-  id: '/sitemap.xml',
-  path: '/sitemap.xml',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const RssDotxmlRoute = RssDotxmlRouteImport.update({
-  id: '/rss.xml',
-  path: '/rss.xml',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const RobotsDottxtRoute = RobotsDottxtRouteImport.update({
-  id: '/robots.txt',
-  path: '/robots.txt',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const RedaktionRoute = RedaktionRouteImport.update({
-  id: '/redaktion',
-  path: '/redaktion',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const PresseaussendungenRoute = PresseaussendungenRouteImport.update({
-  id: '/presseaussendungen',
-  path: '/presseaussendungen',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const PortalRoute = PortalRouteImport.update({
-  id: '/portal',
-  path: '/portal',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const NewsSitemapDotxmlRoute = NewsSitemapDotxmlRouteImport.update({
-  id: '/news-sitemap.xml',
-  path: '/news-sitemap.xml',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const NachrichtenRoute = NachrichtenRouteImport.update({
-  id: '/nachrichten',
-  path: '/nachrichten',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const LoginRoute = LoginRouteImport.update({
-  id: '/login',
-  path: '/login',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const KennzeichnungRoute = KennzeichnungRouteImport.update({
-  id: '/kennzeichnung',
-  path: '/kennzeichnung',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const ImpressumRoute = ImpressumRouteImport.update({
-  id: '/impressum',
-  path: '/impressum',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const EinreichenRoute = EinreichenRouteImport.update({
-  id: '/einreichen',
-  path: '/einreichen',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const DatenschutzRoute = DatenschutzRouteImport.update({
-  id: '/datenschutz',
-  path: '/datenschutz',
+const IndexRoute = IndexRouteImport.update({
+  id: '/',
+  path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AdminRoute = AdminRouteImport.update({
@@ -105,14 +40,79 @@ const AdminRoute = AdminRouteImport.update({
   path: '/admin',
   getParentRoute: () => rootRouteImport,
 } as any)
-const IndexRoute = IndexRouteImport.update({
-  id: '/',
-  path: '/',
+const DatenschutzRoute = DatenschutzRouteImport.update({
+  id: '/datenschutz',
+  path: '/datenschutz',
   getParentRoute: () => rootRouteImport,
 } as any)
-const RubrikSlugRoute = RubrikSlugRouteImport.update({
-  id: '/rubrik/$slug',
-  path: '/rubrik/$slug',
+const EinreichenRoute = EinreichenRouteImport.update({
+  id: '/einreichen',
+  path: '/einreichen',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ImpressumRoute = ImpressumRouteImport.update({
+  id: '/impressum',
+  path: '/impressum',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const KennzeichnungRoute = KennzeichnungRouteImport.update({
+  id: '/kennzeichnung',
+  path: '/kennzeichnung',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LoginRoute = LoginRouteImport.update({
+  id: '/login',
+  path: '/login',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NachrichtenRoute = NachrichtenRouteImport.update({
+  id: '/nachrichten',
+  path: '/nachrichten',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NewsSitemapDotxmlRoute = NewsSitemapDotxmlRouteImport.update({
+  id: '/news-sitemap.xml',
+  path: '/news-sitemap.xml',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PortalRoute = PortalRouteImport.update({
+  id: '/portal',
+  path: '/portal',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PresseaussendungenRoute = PresseaussendungenRouteImport.update({
+  id: '/presseaussendungen',
+  path: '/presseaussendungen',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RedaktionRoute = RedaktionRouteImport.update({
+  id: '/redaktion',
+  path: '/redaktion',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RobotsDottxtRoute = RobotsDottxtRouteImport.update({
+  id: '/robots.txt',
+  path: '/robots.txt',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RssDotxmlRoute = RssDotxmlRouteImport.update({
+  id: '/rss.xml',
+  path: '/rss.xml',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
+  id: '/sitemap.xml',
+  path: '/sitemap.xml',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SucheRoute = SucheRouteImport.update({
+  id: '/suche',
+  path: '/suche',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ArtikelSlugRoute = ArtikelSlugRouteImport.update({
+  id: '/artikel/$slug',
+  path: '/artikel/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
 const BundeslandSlugRoute = BundeslandSlugRouteImport.update({
@@ -120,9 +120,9 @@ const BundeslandSlugRoute = BundeslandSlugRouteImport.update({
   path: '/bundesland/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
-const ArtikelSlugRoute = ArtikelSlugRouteImport.update({
-  id: '/artikel/$slug',
-  path: '/artikel/$slug',
+const RubrikSlugRoute = RubrikSlugRouteImport.update({
+  id: '/rubrik/$slug',
+  path: '/rubrik/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ApiV1BeitraegeRoute = ApiV1BeitraegeRouteImport.update({
@@ -292,102 +292,11 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/suche': {
-      id: '/suche'
-      path: '/suche'
-      fullPath: '/suche'
-      preLoaderRoute: typeof SucheRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/sitemap.xml': {
-      id: '/sitemap.xml'
-      path: '/sitemap.xml'
-      fullPath: '/sitemap.xml'
-      preLoaderRoute: typeof SitemapDotxmlRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/rss.xml': {
-      id: '/rss.xml'
-      path: '/rss.xml'
-      fullPath: '/rss.xml'
-      preLoaderRoute: typeof RssDotxmlRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/robots.txt': {
-      id: '/robots.txt'
-      path: '/robots.txt'
-      fullPath: '/robots.txt'
-      preLoaderRoute: typeof RobotsDottxtRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/redaktion': {
-      id: '/redaktion'
-      path: '/redaktion'
-      fullPath: '/redaktion'
-      preLoaderRoute: typeof RedaktionRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/presseaussendungen': {
-      id: '/presseaussendungen'
-      path: '/presseaussendungen'
-      fullPath: '/presseaussendungen'
-      preLoaderRoute: typeof PresseaussendungenRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/portal': {
-      id: '/portal'
-      path: '/portal'
-      fullPath: '/portal'
-      preLoaderRoute: typeof PortalRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/news-sitemap.xml': {
-      id: '/news-sitemap.xml'
-      path: '/news-sitemap.xml'
-      fullPath: '/news-sitemap.xml'
-      preLoaderRoute: typeof NewsSitemapDotxmlRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/nachrichten': {
-      id: '/nachrichten'
-      path: '/nachrichten'
-      fullPath: '/nachrichten'
-      preLoaderRoute: typeof NachrichtenRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/login': {
-      id: '/login'
-      path: '/login'
-      fullPath: '/login'
-      preLoaderRoute: typeof LoginRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/kennzeichnung': {
-      id: '/kennzeichnung'
-      path: '/kennzeichnung'
-      fullPath: '/kennzeichnung'
-      preLoaderRoute: typeof KennzeichnungRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/impressum': {
-      id: '/impressum'
-      path: '/impressum'
-      fullPath: '/impressum'
-      preLoaderRoute: typeof ImpressumRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/einreichen': {
-      id: '/einreichen'
-      path: '/einreichen'
-      fullPath: '/einreichen'
-      preLoaderRoute: typeof EinreichenRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/datenschutz': {
-      id: '/datenschutz'
-      path: '/datenschutz'
-      fullPath: '/datenschutz'
-      preLoaderRoute: typeof DatenschutzRouteImport
+    '/': {
+      id: '/'
+      path: '/'
+      fullPath: '/'
+      preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/admin': {
@@ -397,18 +306,109 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AdminRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/': {
-      id: '/'
-      path: '/'
-      fullPath: '/'
-      preLoaderRoute: typeof IndexRouteImport
+    '/datenschutz': {
+      id: '/datenschutz'
+      path: '/datenschutz'
+      fullPath: '/datenschutz'
+      preLoaderRoute: typeof DatenschutzRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/rubrik/$slug': {
-      id: '/rubrik/$slug'
-      path: '/rubrik/$slug'
-      fullPath: '/rubrik/$slug'
-      preLoaderRoute: typeof RubrikSlugRouteImport
+    '/einreichen': {
+      id: '/einreichen'
+      path: '/einreichen'
+      fullPath: '/einreichen'
+      preLoaderRoute: typeof EinreichenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/impressum': {
+      id: '/impressum'
+      path: '/impressum'
+      fullPath: '/impressum'
+      preLoaderRoute: typeof ImpressumRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/kennzeichnung': {
+      id: '/kennzeichnung'
+      path: '/kennzeichnung'
+      fullPath: '/kennzeichnung'
+      preLoaderRoute: typeof KennzeichnungRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/login': {
+      id: '/login'
+      path: '/login'
+      fullPath: '/login'
+      preLoaderRoute: typeof LoginRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/nachrichten': {
+      id: '/nachrichten'
+      path: '/nachrichten'
+      fullPath: '/nachrichten'
+      preLoaderRoute: typeof NachrichtenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/news-sitemap.xml': {
+      id: '/news-sitemap.xml'
+      path: '/news-sitemap.xml'
+      fullPath: '/news-sitemap.xml'
+      preLoaderRoute: typeof NewsSitemapDotxmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/portal': {
+      id: '/portal'
+      path: '/portal'
+      fullPath: '/portal'
+      preLoaderRoute: typeof PortalRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/presseaussendungen': {
+      id: '/presseaussendungen'
+      path: '/presseaussendungen'
+      fullPath: '/presseaussendungen'
+      preLoaderRoute: typeof PresseaussendungenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/redaktion': {
+      id: '/redaktion'
+      path: '/redaktion'
+      fullPath: '/redaktion'
+      preLoaderRoute: typeof RedaktionRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/robots.txt': {
+      id: '/robots.txt'
+      path: '/robots.txt'
+      fullPath: '/robots.txt'
+      preLoaderRoute: typeof RobotsDottxtRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/rss.xml': {
+      id: '/rss.xml'
+      path: '/rss.xml'
+      fullPath: '/rss.xml'
+      preLoaderRoute: typeof RssDotxmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sitemap.xml': {
+      id: '/sitemap.xml'
+      path: '/sitemap.xml'
+      fullPath: '/sitemap.xml'
+      preLoaderRoute: typeof SitemapDotxmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/suche': {
+      id: '/suche'
+      path: '/suche'
+      fullPath: '/suche'
+      preLoaderRoute: typeof SucheRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/artikel/$slug': {
+      id: '/artikel/$slug'
+      path: '/artikel/$slug'
+      fullPath: '/artikel/$slug'
+      preLoaderRoute: typeof ArtikelSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/bundesland/$slug': {
@@ -418,11 +418,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BundeslandSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/artikel/$slug': {
-      id: '/artikel/$slug'
-      path: '/artikel/$slug'
-      fullPath: '/artikel/$slug'
-      preLoaderRoute: typeof ArtikelSlugRouteImport
+    '/rubrik/$slug': {
+      id: '/rubrik/$slug'
+      path: '/rubrik/$slug'
+      fullPath: '/rubrik/$slug'
+      preLoaderRoute: typeof RubrikSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/api/v1/beitraege': {
