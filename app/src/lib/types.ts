@@ -1,0 +1,37 @@
+export type Article = {
+  id: number;
+  slug: string;
+  title: string;
+  teaser: string;
+  body: string;
+  category: string;
+  topic: string | null;
+  region: string | null;
+  kind: string;
+  sender: string | null;
+  sender_url: string | null;
+  author: string;
+  image: string | null;
+  source_name: string | null;
+  source_url: string | null;
+  status: string;
+  published_at: string;
+  updated_at: string;
+  meta_title: string | null;
+  meta_description: string | null;
+  focus_keyword: string | null;
+  keywords: string | null;
+  image_alt: string | null;
+  image_prompt: string | null;
+  faq: string | null;
+  service: number;
+  submitted_by: number | null;
+  review_note: string | null;
+};
+export type ArticleCard = Omit<Article, "body" | "faq" | "image_prompt" | "keywords" | "meta_title" | "meta_description" | "focus_keyword" | "submitted_by" | "review_note">;
+export type Lead = { id: number; partner: string; article_slug: string | null; name: string; phone: string; email: string | null; location: string | null; message: string | null; timing: string | null; status: string; created_at: string };
+export type Submission = {
+  id: number; company: string; contact: string; email: string; phone: string | null; website: string | null;
+  title: string; body: string; category: string | null; region: string | null; timing: string | null; package: string | null;
+  status: string; created_at: string;
+};
