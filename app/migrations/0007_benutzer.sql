@@ -21,7 +21,4 @@ CREATE TABLE IF NOT EXISTS sessions (
 CREATE INDEX IF NOT EXISTS idx_sessions_user ON sessions (user_id);
 ALTER TABLE articles ADD COLUMN submitted_by INTEGER;
 ALTER TABLE articles ADD COLUMN review_note TEXT;
-
--- Hauptadmin (Passwort nur als PBKDF2-Hash gespeichert)
-INSERT OR IGNORE INTO users (username, email, name, role, status, pw_hash, pw_salt)
-VALUES ('Admin', NULL, 'Hauptadmin', 'admin', 'active', 'cd8e4cd821b97965a2a82d2f8a4630a5a9904073a0761192bc73f6f79791d0ad', 'cfdb9e8dd99a2e59c258e54499508a2e');
+-- Hauptadmin wird direkt in der Datenbank angelegt (kein Passwort-Hash im Repository).
