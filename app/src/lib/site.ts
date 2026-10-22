@@ -109,7 +109,8 @@ export const fmtShort = (iso: string) => new Intl.DateTimeFormat("de-AT", { day:
 export const fmtToday = () => new Intl.DateTimeFormat("de-AT", { weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: TZ }).format(new Date());
 
 // Auf "https://presseinfo.at" umstellen, sobald die Domain auf die Website zeigt.
-export const SITE_URL = "https://presseinfo.higgsfield.app";
+// Per Umgebungsvariable VITE_SITE_URL (Vercel) ueberschreibbar, ohne Code-Aenderung.
+export const SITE_URL: string = ((import.meta.env.VITE_SITE_URL as string | undefined) || "https://presseinfo.higgsfield.app").replace(/\/+$/, "");
 export const OG_IMAGE = "/assets/og/presseinfo-og.jpg";
 export const abs = (path: string) => (path.startsWith("http") ? path : `${SITE_URL}${path}`);
 /** Eigenes Foto des Beitrags oder null (dann zeigt die Seite eine Titelkarte statt eines doppelten Fotos). */
