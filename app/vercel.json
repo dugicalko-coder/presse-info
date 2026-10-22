@@ -1,7 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": null,
   "installCommand": "bun install",
   "buildCommand": "npx vite build",
-  "outputDirectory": ".vercel/output"
+  "regions": ["fra1"]
 }

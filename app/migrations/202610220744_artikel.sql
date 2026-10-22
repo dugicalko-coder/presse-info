@@ -1,0 +1,33 @@
+-- Redaktionsbeiträge (generiert aus content-JSON)
+INSERT INTO articles (slug,title,teaser,body,category,topic,region,kind,author,image,source_name,source_url,status,published_at,updated_at,meta_title,meta_description,focus_keyword,keywords,image_alt,image_prompt,faq,service) VALUES ('einbruch-baustelle-wien-donaustadt-kabeltrommeln-festnahme','Einbruch in Baustelle in Wien-Donaustadt: Zwei 16-Jährige gestellt','Ein Bauarbeiter beobachtete in der Nacht drei Männer, die auf einer Baustelle in Wien-Donaustadt Kabeltrommeln verluden. Zwei 16-Jährige wurden gestellt, ein dritter Verdächtiger ist flüchtig.','Ein **Einbruch in eine Baustelle in Donaustadt** hat in der Nacht auf Dienstag, 20. Oktober 2026, die Wiener Polizei beschäftigt. Gegen 1 Uhr früh bemerkte ein Mitarbeiter eines Bauunternehmens, wie sich drei Männer Zutritt zu dem Gelände im 22. Wiener Gemeindebezirk verschafften und anschließend mehrere Kabeltrommeln in einen Kleintransporter luden. Der Mann verständigte über den Notruf die Polizei. Die Landespolizeidirektion Wien hat den Vorfall am Mittwoch in einer Aussendung öffentlich gemacht.
+
+## Einbruch in Baustelle Donaustadt: Was in der Nacht passierte
+
+Nach Angaben der Polizei handelte der Zeuge schnell: Statt selbst einzuschreiten, rief er die Beamten zu Hilfe und schilderte die Situation. Streifen der Polizeiinspektion Rudolf-Nurejew-Promenade fuhren daraufhin zum Tatort. Kurz nach der Alarmierung gelang es ihnen, zwei der drei Verdächtigen anzuhalten. Wie viele Kabeltrommeln genau verladen worden waren und welchen Wert die Ware hat, geht aus der Aussendung nicht hervor.
+
+Bei den beiden Angehaltenen handelt es sich laut Polizei um zwei 16-jährige österreichische Staatsbürger. Der dritte Mann konnte entkommen. Die Ermittler gehen davon aus, dass es sich um den 39-jährigen Stiefvater eines der beiden Jugendlichen handelt, ebenfalls österreichischer Staatsbürger. Nach ihm wird gefahndet. Für alle Beteiligten gilt die Unschuldsvermutung.
+
+## Fahndung nach dem flüchtigen Verdächtigen
+
+Die weiteren Ermittlungen führt das Kriminalreferat des Stadtpolizeikommandos Donaustadt. Die Polizei bittet die Bevölkerung um Mithilfe: Wer Hinweise zum Aufenthaltsort des gesuchten Mannes geben kann, wird ersucht, sich unter der Telefonnummer **01-31310-66221** zu melden. Hinweise können auch anonym abgegeben werden.
+
+Offen ist derzeit unter anderem, ob die Verdächtigen gezielt nach Kupferkabeln gesucht haben und ob sie für weitere Taten in Frage kommen. Dazu machte die Polizei vorerst keine Angaben.
+
+## Warum Baustellen ein beliebtes Ziel sind
+
+Baustellen sind für Diebe aus mehreren Gründen attraktiv. Auf vielen Arealen lagern über Nacht Material, Werkzeug und Maschinen, die einen hohen Wiederverkaufswert haben. Besonders gefragt sind Kabel, weil das darin enthaltene Kupfer als Altmetall Geld bringt. Hinzu kommt, dass Baustellen oft nur mit mobilen Bauzäunen gesichert sind und nachts kaum Menschen vor Ort sind. Für die betroffenen Unternehmen entstehen neben dem Materialverlust häufig zusätzliche Kosten durch Verzögerungen im Bauablauf.
+
+Der Fall in Donaustadt zeigt, wie wichtig aufmerksame Zeuginnen und Zeugen sind: Erst durch den raschen Anruf beim Notruf konnte die Polizei rechtzeitig eingreifen.
+
+## So können Baufirmen ihre Baustelle schützen
+
+Einen vollständigen Schutz gibt es nicht, mit einigen Maßnahmen lässt sich das Risiko aber deutlich senken:
+
+- Wertvolles Material wie Kabeltrommeln, Werkzeug und Kleingeräte nach Arbeitsende in versperrbaren Containern lagern.
+- Bauzäune lückenlos schließen und Zufahrten zusätzlich sichern.
+- Gelände nachts beleuchten, etwa mit Bewegungsmeldern.
+- Alarmanlagen oder Kameras einsetzen und gegebenenfalls einen Wachdienst beauftragen.
+- Lieferungen von teurem Material möglichst knapp vor dem Einbau planen.
+- Maschinen und Geräte registrieren oder markieren, damit gestohlene Ware leichter zugeordnet werden kann.
+
+Wer verdächtige Beobachtungen macht, sollte nicht selbst eingreifen, sondern umgehend den Polizeinotruf **133** oder den Euro-Notruf **112** wählen. Wichtig sind dabei möglichst genaue Angaben zu Ort, Personen und Fahrzeugen.','chronik','Wien','wien','news','Presseinfo Redaktion','/assets/img/artikel/einbruch-baustelle-wien-donaustadt-kabeltrommeln-festnahme.webp','Landespolizeidirektion Wien','https://www.polizei.gv.at/wien/presse/aussendungen/pressed45d.html?prid=326f4977466733453575303d&pro=0','published','2026-10-22T07:55:00.000Z','2026-10-22T07:44:22.530Z','Einbruch Baustelle Donaustadt: Zwei Jugendliche gestellt','Einbruch in Baustelle in Wien-Donaustadt: Drei Männer luden Kabeltrommeln in einen Kleintransporter. Zwei 16-Jährige gestellt, ein Mann flüchtig.','Einbruch Baustelle Donaustadt','["Einbruch Baustelle Donaustadt","Einbruch Baustelle Wien","Wien-Donaustadt Polizei","Kabeltrommeln gestohlen","Kabeldiebstahl Baustelle","Polizei Wien Festnahme Jugendliche","Baustelle Diebstahl Wien 22. Bezirk","Baustelle vor Diebstahl schützen"]','Einbruch in Baustelle in Wien-Donaustadt: Kabeltrommeln auf nächtlicher Baustelle','Fenced construction site at night in a Viennese suburban district with new apartment buildings under construction, mobile construction fence, large cable drums stacked on the ground, a small white van parked nearby, police car with blue lights reflecting on wet asphalt in the distance, no people in focus, no text, no logos, no readable signs','[{"q":"Was wurde bei dem Einbruch in die Baustelle in Donaustadt gestohlen?","a":"Laut Polizei luden die Verdächtigen mehrere Kabeltrommeln in einen Kleintransporter. Eine genaue Menge wurde nicht genannt."},{"q":"Wer wurde gestellt?","a":"Zwei 16-jährige Österreicher wurden angehalten. Ein dritter Verdächtiger, vermutlich ein 39-Jähriger, ist flüchtig. Es gilt die Unschuldsvermutung."},{"q":"Wo kann man Hinweise abgeben?","a":"Beim Kriminalreferat des Stadtpolizeikommandos Donaustadt unter 01-31310-66221, auch anonym."}]',0) ON CONFLICT(slug) DO UPDATE SET title=excluded.title, teaser=excluded.teaser, body=excluded.body, category=excluded.category, topic=excluded.topic, region=excluded.region, kind=excluded.kind, author=excluded.author, source_name=excluded.source_name, source_url=excluded.source_url, status=excluded.status, published_at=excluded.published_at, updated_at=excluded.updated_at, meta_title=excluded.meta_title, meta_description=excluded.meta_description, focus_keyword=excluded.focus_keyword, keywords=excluded.keywords, image_alt=excluded.image_alt, image_prompt=excluded.image_prompt, faq=excluded.faq, service=excluded.service, image=COALESCE(excluded.image, articles.image);

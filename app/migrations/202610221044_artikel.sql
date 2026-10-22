@@ -1,0 +1,37 @@
+-- Redaktionsbeiträge (generiert aus content-JSON)
+INSERT INTO articles (slug,title,teaser,body,category,topic,region,kind,author,image,source_name,source_url,status,published_at,updated_at,meta_title,meta_description,focus_keyword,keywords,image_alt,image_prompt,faq,service) VALUES ('grippeimpfung-niederoesterreich-impfstoff-fehlt-aerztekammer','Grippeimpfung in Niederösterreich: Ärzten fehlt der Impfstoff','Für Erwachsene von 18 bis 59 fehlt der Standardimpfstoff gegen Grippe. Die Ärztekammer NÖ fordert, Fluad schon ab 50 im Gratisprogramm freizugeben.','Bei der **Grippeimpfung** in Niederösterreich hakt es: Die Ärztinnen- und Ärztekammer für Niederösterreich (ÄKNÖ) hat am Mittwoch, 21. Oktober, öffentlich auf fehlenden Impfstoff für Erwachsene zwischen 18 und 59 Jahren hingewiesen. Der dafür vorgesehene Standardimpfstoff Influvac tri ist wegen Lieferschwierigkeiten noch nicht in den Ordinationen angekommen. Wann er ausgeliefert wird, ist laut Kammer weiterhin offen.
+
+Die Kammer sieht die Impfungen damit bereits seit Anfang Oktober im Verzug. Gleichzeitig rücke die Grippewelle näher. In vielen Praxen würden Impftermine derzeit verschoben oder gar nicht erst vergeben, bis die Lieferung eintrifft. Kurienobfrau Dagmar Fedra-Machacek, selbst Kassenärztin für Allgemeinmedizin, fasste die Lage so zusammen: „Wir stehen mit leeren Händen vor impfwilligen Patienten.“
+
+## Grippeimpfung: Welcher Impfstoff für wen verfügbar ist
+
+Im kostenlosen öffentlichen Impfprogramm ist die Versorgung je nach Altersgruppe unterschiedlich. Nach Angaben der Ärztekammer sieht die Situation derzeit so aus:
+
+- **Kinder und Jugendliche von 2 bis unter 18 Jahren:** Der Nasenspray-Impfstoff Fluenz ist verfügbar.
+- **Menschen ab 60 Jahren:** Der Impfstoff Fluad ist verfügbar. Jüngere erhalten ihn im Programm nur bei schwerer Immunsuppression.
+- **Babys von 6 bis 24 Monaten, Schwangere und weitere besonders gefährdete Gruppen:** Für sie wurden 100.000 Dosen Flucelvax gesichert. Der Großteil soll bis Ende Oktober bei Kinder- und Frauenärzten eintreffen, ein kleinerer Teil ging an Allgemeinmediziner in Niederösterreich.
+- **Erwachsene von 18 bis 59 Jahren:** Der Standardimpfstoff Influvac tri ist aktuell nicht lieferbar.
+
+## Streitpunkt: Die Altersgruppe 50 bis 59
+
+Besonders unbefriedigend ist die Lage aus Sicht der Kammer für die 50- bis 59-Jährigen. Fluad ist für Menschen ab 50 Jahren zugelassen und lagert in den meisten Ordinationen bereits im Kühlschrank. Im Gratisprogramm darf er aber erst ab 60 verabreicht werden, sofern keine schwere Immunschwäche vorliegt.
+
+Die ÄKNÖ fordert daher, Fluad rasch auch für die Gruppe ab 50 im kostenlosen Programm freizugeben, soweit genug Dosen vorhanden sind. Ältere und besonders gefährdete Menschen müssten dabei weiterhin vorrangig versorgt bleiben. Michael Sokol, Leiter des Impfreferats der Kammer, hält diesen Schritt angesichts der früh beginnenden Grippesaison für vertretbar und notwendig.
+
+Darüber hinaus richtet die Kammer mehrere Forderungen an die Österreichische Gesundheitskasse (ÖGK) und das Gesundheitsministerium:
+
+1. alle verfügbaren Mittel einsetzen, um die Versorgung sicherzustellen,
+2. umgehend prüfen, ob zusätzliche Impfdosen beschafft werden können,
+3. die Bevölkerung klar über den Stand der Lieferungen informieren.
+
+## Hintergrund: Verspätete Lieferung von Influvac
+
+Dass es bei Influvac Verzögerungen gibt, ist seit Wochen bekannt. Bei einer Pressekonferenz Anfang Oktober berichtete ORF.at, dass rund 868.000 Dosen dieses Impfstoffs verspätet ausgeliefert werden. Das Gesundheitsministerium nannte damals Produktionsprobleme und störanfällige internationale Lieferketten als Ursache und kündigte an, besonders gefährdete Gruppen vorzuziehen. Insgesamt wurden für die aktuelle Saison knapp 1,7 Millionen Dosen bestellt, um zwölf Prozent mehr als im Jahr davor.
+
+Seitens des Ministeriums hieß es damals, der Schutz der impfwilligen Bevölkerung sei nicht gefährdet, sofern es zu keinen weiteren Verzögerungen komme. Üblicherweise wird die Grippeimpfung ab Ende Oktober oder im November empfohlen.
+
+Die Impfbereitschaft ist in Österreich ohnehin gering: In der Saison 2025/26 lag die Durchimpfungsrate laut ORF-Bericht bei 13 Prozent der Gesamtbevölkerung und bei etwa 24 Prozent der über 65-Jährigen. Die niederösterreichische Kammer schätzt auf Basis ihrer Daten, dass nur rund zehn Prozent der Bevölkerung überhaupt impfbereit sind.
+
+## Was Patientinnen und Patienten jetzt tun können
+
+Wer sich impfen lassen möchte, sollte vor dem Termin bei der eigenen Ordination nachfragen, ob ein passender Impfstoff vorrätig ist. Das erspart vergebliche Wege. Menschen ab 60, Kinder und Jugendliche sowie Schwangere und Eltern kleiner Kinder können sich nach aktuellem Stand bereits impfen lassen beziehungsweise in Kürze mit Impfstoff rechnen. Erwachsene zwischen 18 und 59 Jahren ohne besondere Risikofaktoren müssen sich dagegen noch gedulden, bis Influvac tri in den Praxen eintrifft.','gesundheit','Medizin','niederoesterreich','news','Presseinfo Redaktion','/assets/img/artikel/grippeimpfung-niederoesterreich-impfstoff-fehlt-aerztekammer.webp','Ärztinnen- und Ärztekammer für Niederösterreich (APA-OTS)','https://www.ots.at/presseaussendung/OTS_20261021_OTS0175/grippeimpfung-wir-stehen-mit-leeren-haenden-vor-impfwilligen-patienten','published','2026-10-22T10:50:00.000Z','2026-10-22T10:44:06.499Z','Grippeimpfung NÖ: Ärzten fehlt der Impfstoff','Grippeimpfung in Niederösterreich: Für 18- bis 59-Jährige fehlt Influvac tri. Welche Gruppen jetzt impfen können und was die Ärztekammer fordert.','Grippeimpfung','["Grippeimpfung","Grippeimpfung Niederösterreich","Grippeimpfstoff Lieferverzögerung","Influvac tri","Fluad ab 50","Grippeimpfung 2026","Ärztekammer Niederösterreich","Influenza Impfprogramm Österreich"]','Grippeimpfung: fast leerer Impfstoff-Kühlschrank in einer Arztordination in Niederösterreich','Empty doctor''s office waiting room in a rural Lower Austrian general practice in autumn, an open medical vaccine refrigerator with nearly empty shelves in the foreground, soft daylight through the window, wooden chairs, realistic Austrian clinic interior, no people, no text, no logos, no readable signs','[{"q":"Warum fehlt derzeit Grippeimpfstoff?","a":"Der Standardimpfstoff Influvac tri für 18- bis 59-Jährige wird wegen Produktionsproblemen und Lieferkettenstörungen verspätet ausgeliefert. Ein Termin für die Ordinationen steht noch aus."},{"q":"Wer kann sich schon gegen Grippe impfen lassen?","a":"Kinder und Jugendliche von 2 bis 18 (Nasenspray Fluenz) und Menschen ab 60 (Fluad). Für Babys, Schwangere und Risikogruppen wurden 100.000 Dosen Flucelvax gesichert."},{"q":"Was fordert die Ärztekammer Niederösterreich?","a":"Fluad soll im Gratisprogramm schon ab 50 verimpft werden dürfen, zusätzliche Dosen sollen geprüft und die Bevölkerung klar informiert werden."}]',0) ON CONFLICT(slug) DO UPDATE SET title=excluded.title, teaser=excluded.teaser, body=excluded.body, category=excluded.category, topic=excluded.topic, region=excluded.region, kind=excluded.kind, author=excluded.author, source_name=excluded.source_name, source_url=excluded.source_url, status=excluded.status, published_at=excluded.published_at, updated_at=excluded.updated_at, meta_title=excluded.meta_title, meta_description=excluded.meta_description, focus_keyword=excluded.focus_keyword, keywords=excluded.keywords, image_alt=excluded.image_alt, image_prompt=excluded.image_prompt, faq=excluded.faq, service=excluded.service, image=COALESCE(excluded.image, articles.image);
