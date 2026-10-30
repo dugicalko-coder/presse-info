@@ -21,6 +21,7 @@ import { Route as NachrichtenRouteImport } from './routes/nachrichten'
 import { Route as LoginRouteImport } from './routes/login'
 import { Route as KennzeichnungRouteImport } from './routes/kennzeichnung'
 import { Route as ImpressumRouteImport } from './routes/impressum'
+import { Route as Google638ca95c975fcf5aDothtmlRouteImport } from './routes/google638ca95c975fcf5a[.]html'
 import { Route as EinreichenRouteImport } from './routes/einreichen'
 import { Route as DatenschutzRouteImport } from './routes/datenschutz'
 import { Route as AdminRouteImport } from './routes/admin'
@@ -90,6 +91,12 @@ const ImpressumRoute = ImpressumRouteImport.update({
   path: '/impressum',
   getParentRoute: () => rootRouteImport,
 } as any)
+const Google638ca95c975fcf5aDothtmlRoute =
+  Google638ca95c975fcf5aDothtmlRouteImport.update({
+    id: '/google638ca95c975fcf5a.html',
+    path: '/google638ca95c975fcf5a.html',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const EinreichenRoute = EinreichenRouteImport.update({
   id: '/einreichen',
   path: '/einreichen',
@@ -136,6 +143,7 @@ export interface FileRoutesByFullPath {
   '/admin': typeof AdminRoute
   '/datenschutz': typeof DatenschutzRoute
   '/einreichen': typeof EinreichenRoute
+  '/google638ca95c975fcf5a.html': typeof Google638ca95c975fcf5aDothtmlRoute
   '/impressum': typeof ImpressumRoute
   '/kennzeichnung': typeof KennzeichnungRoute
   '/login': typeof LoginRoute
@@ -158,6 +166,7 @@ export interface FileRoutesByTo {
   '/admin': typeof AdminRoute
   '/datenschutz': typeof DatenschutzRoute
   '/einreichen': typeof EinreichenRoute
+  '/google638ca95c975fcf5a.html': typeof Google638ca95c975fcf5aDothtmlRoute
   '/impressum': typeof ImpressumRoute
   '/kennzeichnung': typeof KennzeichnungRoute
   '/login': typeof LoginRoute
@@ -181,6 +190,7 @@ export interface FileRoutesById {
   '/admin': typeof AdminRoute
   '/datenschutz': typeof DatenschutzRoute
   '/einreichen': typeof EinreichenRoute
+  '/google638ca95c975fcf5a.html': typeof Google638ca95c975fcf5aDothtmlRoute
   '/impressum': typeof ImpressumRoute
   '/kennzeichnung': typeof KennzeichnungRoute
   '/login': typeof LoginRoute
@@ -205,6 +215,7 @@ export interface FileRouteTypes {
     | '/admin'
     | '/datenschutz'
     | '/einreichen'
+    | '/google638ca95c975fcf5a.html'
     | '/impressum'
     | '/kennzeichnung'
     | '/login'
@@ -227,6 +238,7 @@ export interface FileRouteTypes {
     | '/admin'
     | '/datenschutz'
     | '/einreichen'
+    | '/google638ca95c975fcf5a.html'
     | '/impressum'
     | '/kennzeichnung'
     | '/login'
@@ -249,6 +261,7 @@ export interface FileRouteTypes {
     | '/admin'
     | '/datenschutz'
     | '/einreichen'
+    | '/google638ca95c975fcf5a.html'
     | '/impressum'
     | '/kennzeichnung'
     | '/login'
@@ -272,6 +285,7 @@ export interface RootRouteChildren {
   AdminRoute: typeof AdminRoute
   DatenschutzRoute: typeof DatenschutzRoute
   EinreichenRoute: typeof EinreichenRoute
+  Google638ca95c975fcf5aDothtmlRoute: typeof Google638ca95c975fcf5aDothtmlRoute
   ImpressumRoute: typeof ImpressumRoute
   KennzeichnungRoute: typeof KennzeichnungRoute
   LoginRoute: typeof LoginRoute
@@ -376,6 +390,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ImpressumRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/google638ca95c975fcf5a.html': {
+      id: '/google638ca95c975fcf5a.html'
+      path: '/google638ca95c975fcf5a.html'
+      fullPath: '/google638ca95c975fcf5a.html'
+      preLoaderRoute: typeof Google638ca95c975fcf5aDothtmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/einreichen': {
       id: '/einreichen'
       path: '/einreichen'
@@ -440,6 +461,7 @@ const rootRouteChildren: RootRouteChildren = {
   AdminRoute: AdminRoute,
   DatenschutzRoute: DatenschutzRoute,
   EinreichenRoute: EinreichenRoute,
+  Google638ca95c975fcf5aDothtmlRoute: Google638ca95c975fcf5aDothtmlRoute,
   ImpressumRoute: ImpressumRoute,
   KennzeichnungRoute: KennzeichnungRoute,
   LoginRoute: LoginRoute,
