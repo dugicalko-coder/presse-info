@@ -1,0 +1,36 @@
+-- Redaktionsbeiträge (generiert aus content-JSON)
+INSERT INTO articles (slug,title,teaser,body,category,topic,region,kind,author,image,source_name,source_url,status,published_at,updated_at,meta_title,meta_description,focus_keyword,keywords,image_alt,image_prompt,faq,service) VALUES ('wien-modern-2026-muk-programm-otto-wagner-areal-eintritt-frei','Wien Modern 2026: MUK-Programm mit Klaviergarten und Gratis-Party','Von 30. Oktober bis 30. November läuft Wien Modern. Die MUK steuert sieben Termine bei – mit einem Klavier im Garten, einem Abend im Musikverein und einer Gratis-Party.','Wien Modern 2026 beginnt am 30. Oktober, und die Musik und Kunst Privatuniversität der Stadt Wien (MUK) ist mit sieben eigenen Veranstaltungen Teil des Festivals für zeitgenössische Musik. Das Programm reicht vom Abend im Musikverein über Konzerte und eine Vernissage im Grünen bis zu einer Party mit elektronischer Musik – mehrere Termine sind bei freiem Eintritt zugänglich. Das hat die MUK am Dienstag gemeinsam mit der Wien Holding mitgeteilt.
+
+## Wien Modern 2026: Festival unter dem Motto Ökosysteme
+
+Das Festival geht heuer zum 39. Mal über die Bühne und dauert bis 30. November. Das Leitmotiv lautet „Im großen Ganzen“, ergänzt um den Untertitel „Neue Musik und Ökosysteme“. Die Beiträge der MUK greifen diesen Gedanken mehrfach auf – besonders deutlich bei den Projekten rund um die Komponistin Annea Lockwood. Die meisten MUK-Termine finden auf dem Otto-Wagner-Areal (OWA) in Wien-Penzing im Pavillon 10 statt, einer am Karlsplatz im Musikverein.
+
+## Annea Lockwood: Ein Klavier zieht in den Garten
+
+Im Zentrum steht die neuseeländisch-amerikanische Komponistin Annea Lockwood. Am **Mittwoch, 4. November**, wird von 14 bis 15 Uhr im Garten von Pavillon 10 ihr Projekt „Piano Garden. Piano Transplant 3“ eröffnet. Gemeinsam mit Kompositionsstudierenden der MUK bringt Lockwood ein Klavier vom Konzertpodium ins Freie. Dort bleibt das Instrument Wind und Wetter ausgesetzt und verändert sich mit der Zeit, bis es nach und nach zu einem Teil der Landschaft wird. Vorab gibt Lockwood eine Meisterklasse für die Studierenden. Der Eintritt zur Vernissage ist frei.
+
+Am **Sonntag, 8. November**, folgt von 14 bis 15.30 Uhr das Konzert „The Piano Works“. Die Pianistin Xenia Pestova Bennett spielt Lockwoods Werke für präpariertes Klavier und Zuspielband live. Direkt danach, von 15.30 bis 16 Uhr, sprechen Lockwood, Pestova Bennett und Helga Arias – Komponistin und Leiterin des MUK-Instituts für Tasteninstrumente, Musikleitung und Komposition – über die Arbeiten. Für das Konzertpublikum ist das Gespräch kostenlos.
+
+## Carte blanche im Musikverein und Jelinek-Workshop
+
+Als jährliches Hauptprojekt der MUK bei Wien Modern gilt die „Carte blanche à Francesca Verunelli“ am **Donnerstag, 19. November**, um 20 Uhr im Gläsernen Saal des Musikvereins. Die italienische Komponistin hat den Abend selbst gestaltet: Zu hören sind eigene Stücke sowie Werke von Beat Furrer, Cassandra Miller und Gérard Pesson.
+
+Wissenschaftlich wird es von **2. bis 4. November** im Pavillon 10. Beim dreitägigen Workshop „Elfriede Jelinek: Wissenschaft – Kunst – Demokratie“ stellen Nachwuchsforschende und junge Kunstschaffende ihre Projekte vor und arbeiten dabei mit Mentorinnen und Mentoren aus der Wissenschaft. Veranstalter ist das interuniversitäre Forschungsnetzwerk zu Elfriede Jelinek, getragen von Universität Wien, MUK und Jelinek-Forschungszentrum, in Kooperation mit Wien Modern und dem Musikverein. Auch hier ist der Eintritt frei.
+
+## Gratis-Konzert und Party zum Festivalende
+
+Zum Abschluss lädt die MUK am **Sonntag, 29. November**, gleich zweimal auf das Otto-Wagner-Areal:
+
+- **Silent Ecologies** (15 bis 18 Uhr): Werke von John Cage, Olivier Messiaen und Kaija Saariaho sowie Uraufführungen von MUK-Studierenden. Darunter sind Stücke der Finalistinnen und Finalisten des Ö1-Talentebörse-Kompositionspreises Parsa Badiei Sabet, Valeriia Dolhikh und Ricardo Vendramin Ross.
+- **Party Modern** (18 bis 21.30 Uhr): elektronische Klänge, Improvisation und Turntablism zum Tanzen, gestaltet von Studierenden und Lehrenden aus den Klassen von Masha Dabelka, Christian Fennesz und Martin Siewert.
+
+Beide Termine am 29. November sind bei freiem Eintritt zu besuchen. Für die Carte blanche im Musikverein und das Konzert „The Piano Works“ hat die MUK in ihrer Aussendung keine Preise genannt; Details zu Karten und Reservierung finden Interessierte auf der Website der Universität.
+
+## Überblick: MUK-Termine bei Wien Modern 2026
+
+1. 2.–4. November: Jelinek-Workshop, OWA, Pavillon 10 (frei)
+2. 4. November, 14 Uhr: Vernissage „Piano Garden“, OWA (frei)
+3. 8. November, 14 Uhr: „The Piano Works“ mit anschließendem Gespräch, OWA
+4. 19. November, 20 Uhr: Carte blanche à Francesca Verunelli, Musikverein
+5. 29. November, 15 Uhr: Silent Ecologies, OWA (frei)
+6. 29. November, 18 Uhr: Party Modern, OWA (frei)','kultur','Musik','wien','news','Presseinfo Redaktion','/assets/img/artikel/wien-modern-2026-muk-programm-otto-wagner-areal-eintritt-frei.webp','MUK / Wien Holding via APA-OTS','https://www.ots.at/presseaussendung/OTS_20261027_OTS0080/die-muk-bei-wien-modern-2026','published','2026-10-27T17:50:00.000Z','2026-10-27T17:45:34.195Z','Wien Modern 2026: Das Programm der MUK im Überblick','Wien Modern 2026: Die MUK zeigt sieben Termine – Annea Lockwoods Klaviergarten, Musikverein-Abend und Gratis-Party am OWA. Alle Daten hier.','Wien Modern 2026','["Wien Modern 2026","Wien Modern Programm","MUK Wien Modern","Annea Lockwood Piano Garden","Otto-Wagner-Areal Konzert","Neue Musik Wien November 2026","Konzerte Wien Eintritt frei","Francesca Verunelli Musikverein","Party Modern OWA"]','Wien Modern 2026: Klavier im herbstlichen Garten auf dem Otto-Wagner-Areal','An old upright piano standing outdoors in an autumn garden of a historic Viennese hospital pavilion area with art nouveau buildings in the background, fallen leaves on the piano lid, overcast soft light, contemporary art installation atmosphere, no people','[{"q":"Wann findet Wien Modern 2026 statt?","a":"Das Festival für Neue Musik läuft von 30. Oktober bis 30. November 2026, es ist die 39. Ausgabe."},{"q":"Welche MUK-Veranstaltungen bei Wien Modern sind gratis?","a":"Freien Eintritt gibt es beim Jelinek-Workshop (2.–4. November), der Vernissage „Piano Garden“ (4. November) sowie bei Silent Ecologies und Party Modern am 29. November."},{"q":"Wo finden die MUK-Termine statt?","a":"Großteils im Pavillon 10 auf dem Otto-Wagner-Areal in Wien-Penzing, die Carte blanche am 19. November im Gläsernen Saal des Musikvereins."}]',0) ON CONFLICT(slug) DO UPDATE SET title=excluded.title, teaser=excluded.teaser, body=excluded.body, category=excluded.category, topic=excluded.topic, region=excluded.region, kind=excluded.kind, author=excluded.author, source_name=excluded.source_name, source_url=excluded.source_url, status=excluded.status, published_at=excluded.published_at, updated_at=excluded.updated_at, meta_title=excluded.meta_title, meta_description=excluded.meta_description, focus_keyword=excluded.focus_keyword, keywords=excluded.keywords, image_alt=excluded.image_alt, image_prompt=excluded.image_prompt, faq=excluded.faq, service=excluded.service, image=COALESCE(excluded.image, articles.image);

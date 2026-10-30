@@ -1,0 +1,33 @@
+-- Redaktionsbeiträge (generiert aus content-JSON)
+INSERT INTO articles (slug,title,teaser,body,category,topic,region,kind,author,image,source_name,source_url,status,published_at,updated_at,meta_title,meta_description,focus_keyword,keywords,image_alt,image_prompt,faq,service) VALUES ('sanierung-wien-hauskunft-foerderantrag-eigenheim','Sanierung in Wien: Hauskunft hilft Hausbesitzern beim Förderantrag','Die Hauskunft der Stadt Wien feiert ihr sechsjähriges Bestehen und erweitert ihr Angebot: Besitzer von Ein- und Zweifamilienhäusern bekommen nun Begleitung bis zur Einreichung des Förderantrags.','Wer eine **Sanierung in Wien** plant, kann sich seit sechs Jahren an die Hauskunft wenden – und bekommt dort ab sofort mehr Unterstützung. Die kostenlose Beratungsstelle der Stadt, betrieben vom wohnfonds_wien, begleitet nun auch Eigentümerinnen und Eigentümer von Ein- und Zweifamilienhäusern Schritt für Schritt durch den Förderantrag. Das hat die Stadt Wien am 22. Oktober anlässlich des Jubiläums bekanntgegeben.
+
+## Neues Service für Eigenheime
+
+Das zusätzliche Angebot richtet sich an Hausbesitzer, die ihr Gebäude sanieren und dafür Mittel aus der Wiener Wohnbauförderung beantragen wollen. Die Fachleute der Hauskunft erklären die einzelnen Schritte des Antrags und unterstützen bis zur Einreichung. Ziel ist, fehlende oder unvollständige Angaben schon vor dem Abschicken zu erkennen, damit Anträge nicht an Formalitäten hängen bleiben. Entwickelt wurde das Service gemeinsam mit den zuständigen Förderstellen.
+
+Wohnbaustadträtin Elke Hanel-Torsch bezeichnete die Einrichtung als Modell, das auch über Wien hinaus Beachtung finde. SPÖ-Gemeinderätin Waltraud Karner-Kremser nannte die Hauskunft den „Dreh- und Angelpunkt“ für Sanierungs- und Förderfragen.
+
+## Was die Hauskunft bei einer Sanierung in Wien anbietet
+
+Die Hauskunft wurde im Oktober 2020 gegründet und berät unabhängig und kostenlos zu Energieeffizienz und Sanierungsförderungen. Zum Angebot gehören:
+
+- eine erste Orientierungsberatung, online oder in der Beratungsstelle
+- der sogenannte Zukunfts-Check direkt am Gebäude als Entscheidungshilfe
+- Begleitung von Hausverwaltungen bei Eigentümerversammlungen
+- Beratung zu Dämmung, Haustechnik, Barrierefreiheit, Wohnkomfort, sommerlicher Überhitzung, Begrünung und Lifteinbau
+
+Zielgruppen sind Hauseigentümer, Hausverwaltungen, Planerinnen und Planer, Bauträger sowie Wohnungseigentümer. Derzeit wird das Angebot auf Besitzer von Nicht-Wohngebäuden, energiearme Haushalte und Sanierungsbetriebe ausgeweitet.
+
+## Zentrale Anlaufstelle nach EU-Gebäuderichtlinie
+
+Seit 15. Juli 2026 ist die Hauskunft offiziell die zentrale Anlaufstelle – ein sogenannter One-Stop-Shop – für die Gesamtenergieeffizienz von Gebäuden in Wien. Grundlage ist die überarbeitete EU-Gebäuderichtlinie 2024/1275, die Rolle ist auch in der Wiener Bauordnung verankert. Die Hauskunft arbeitet dabei mit den Wiener Stadtwerken und Urban Innovation Vienna zusammen.
+
+## Nachfrage steigt deutlich
+
+Die Zahlen zeigen, dass das Interesse wächst. Seit dem Start wurden rund 23.000 Beratungen durchgeführt, derzeit sind es 300 bis 400 pro Monat. Bis Ende September 2026 stieg die Zahl der Beratungen im Jahresvergleich um 35 Prozent, von rund 2.400 auf 3.250. Auch die Zahl der Veranstaltungen nahm zu: Nach etwa 85 im Vorjahr sind es heuer bereits 100. Seit der Gründung wurden über 20.000 Menschen bei Veranstaltungen informiert.
+
+Hinter der Beratung steht ein Netzwerk von rund 50 Expertinnen und Experten. Laut Stadt würden 99 Prozent der Beratenen die Hauskunft weiterempfehlen. Bis Ende September wurden zudem 130 geförderte Wohnhaussanierungen mit Gesamtbaukosten von mehr als 250 Millionen Euro gestartet.
+
+## So erreichen Sie die Hauskunft
+
+Die Hauskunft ist telefonisch unter 01 402 84 00 erreichbar, Kontaktmöglichkeiten gibt es auch online auf hauskunft-wien.at. Wer eine thermische Sanierung, einen Heizungstausch oder eine Begrünung plant, sollte die Beratung möglichst früh nutzen – also bevor Aufträge vergeben werden. Viele Förderungen setzen voraus, dass bestimmte Schritte in der richtigen Reihenfolge erfolgen. Für die Umsetzung braucht es anschließend qualifizierte Fachbetriebe, etwa für Dämmung, Fenster oder Haustechnik.','bauen-wohnen','Sanieren','wien','news','Presseinfo Redaktion','/assets/img/artikel/sanierung-wien-hauskunft-foerderantrag-eigenheim.webp','Stadt Wien – Kommunikation und Medien (APA-OTS)','https://www.ots.at/presseaussendung/OTS_20261022_OTS0101/hanel-torscharapovickarner-kremser-europaeisches-best-practice-modell-hauskunft-feiert-6jubilaeum-mit-neuem-service-fuer-eigenheime','published','2026-10-24T07:50:00.000Z','2026-10-24T07:43:38.082Z','Sanierung in Wien: Hilfe beim Förderantrag fürs Haus','Sanierung in Wien: Die Hauskunft begleitet Besitzer von Ein- und Zweifamilienhäusern neu bis zum Förderantrag. Alle Infos zu Beratung und Kontakt.','Sanierung Wien','["Sanierung Wien","Hauskunft Wien","Sanierungsförderung Wien","Wohnbauförderung Wien Einfamilienhaus","Förderantrag Sanierung","Energieberatung Wien kostenlos","wohnfonds_wien","Haus sanieren Wien Förderung"]','Sanierung in Wien: Einfamilienhaus mit Gerüst und Dämmplatten an der Fassade','Viennese suburban single-family house from the 1960s under thermal renovation, scaffolding and fresh insulation panels on the facade, an energy advisor and homeowner seen from behind looking at plans in the garden, autumn trees, overcast soft light, no text, no logos, no readable signs','[{"q":"Was kostet die Beratung der Hauskunft Wien?","a":"Die Beratung der Hauskunft ist laut Stadt Wien kostenlos und unabhängig. Sie wird vom wohnfonds_wien betrieben."},{"q":"Wer bekommt Hilfe beim Förderantrag?","a":"Das neue Service richtet sich an Besitzer von Ein- und Zweifamilienhäusern, die sanieren und dafür Wiener Wohnbauförderung beantragen wollen."},{"q":"Wie erreiche ich die Hauskunft?","a":"Telefonisch unter 01 402 84 00 oder über das Kontaktformular auf hauskunft-wien.at."}]',1) ON CONFLICT(slug) DO UPDATE SET title=excluded.title, teaser=excluded.teaser, body=excluded.body, category=excluded.category, topic=excluded.topic, region=excluded.region, kind=excluded.kind, author=excluded.author, source_name=excluded.source_name, source_url=excluded.source_url, status=excluded.status, published_at=excluded.published_at, updated_at=excluded.updated_at, meta_title=excluded.meta_title, meta_description=excluded.meta_description, focus_keyword=excluded.focus_keyword, keywords=excluded.keywords, image_alt=excluded.image_alt, image_prompt=excluded.image_prompt, faq=excluded.faq, service=excluded.service, image=COALESCE(excluded.image, articles.image);

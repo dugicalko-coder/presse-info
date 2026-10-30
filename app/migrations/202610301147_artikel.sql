@@ -1,0 +1,33 @@
+-- Redaktionsbeiträge (generiert aus content-JSON)
+INSERT INTO articles (slug,title,teaser,body,category,topic,region,kind,author,image,source_name,source_url,status,published_at,updated_at,meta_title,meta_description,focus_keyword,keywords,image_alt,image_prompt,faq,service) VALUES ('spritpreisbremse-margendeckel-verlaengert-30-november-2026','Spritpreisbremse: Regierung verlängert Margendeckel bis 30. November','Die Bundesregierung hat per Umlaufbeschluss die Verordnung zur Margenbegrenzung bei Treibstoffen verlängert. Der Deckel von 3,5 Cent pro Liter läuft nun parallel zur Steuersenkung bis Ende November.','Die **Spritpreisbremse** bleibt bis Ende November vollständig in Kraft. Die Bundesregierung hat am 30. Oktober 2026 im Umlaufweg – also ohne eigene Sitzung des Ministerrats – eine Änderung der Verordnung zur Margenbegrenzung bei Treibstoffen beschlossen. Damit verschiebt sich das Auslaufdatum der Regelung vom 31. Oktober auf den 30. November.
+
+Ohne diesen Schritt wäre der Eingriff in die Margen der Mineralölunternehmen mit dem morgigen Samstag ausgelaufen, während die Senkung der Mineralölsteuer noch einen Monat weiter gegolten hätte. Nun enden beide Teile der Entlastung zum selben Termin.
+
+## Spritpreisbremse: Was die Verlängerung konkret ändert
+
+Die Änderungsverordnung selbst ist kurz. Im Kern wird im Verordnungstext das Datum „31. Oktober“ durch „30. November“ ersetzt. Die geänderte Bestimmung tritt laut Entwurf mit 31. Oktober 2026 in Kraft, sodass keine Lücke entsteht. Rechtsgrundlage ist Paragraf 5aa des Preisgesetzes, der der Regierung solche Eingriffe in Krisenzeiten erlaubt.
+
+Inhaltlich bleiben laut dem Vortrag an den Ministerrat zwei Elemente aufrecht:
+
+- Die Marge der Anbieter bleibt mit **3,5 Cent pro Liter** gedeckelt.
+- Preise dürfen sich nur entlang gängiger internationaler Preisnotierungen bewegen. Sinken diese, müssen die Tankstellen die Senkung an die Kundschaft weitergeben.
+
+Eingebracht wurde der Antrag vom Bundesministerium für Wirtschaft, Energie und Tourismus. Die Regierung begründet die Maßnahmen mit den Folgen geopolitischer Krisen für die Energiepreise. Ziel sei es, einen Inflationsschub zu verhindern und zu vermeiden, dass Staat oder Energiekonzerne außergewöhnliche Gewinne aus der Lage ziehen. Voraussetzung für die Anwendung bleibt, dass die Versorgungssicherheit gewährleistet ist.
+
+## Steuersenkung und Margendeckel im Paket
+
+Die aktuelle Neuauflage der Spritpreisbremse gilt seit 1. Oktober 2026. Sie besteht aus zwei Bausteinen: Der Nationalrat hat Ende September eine Änderung des Mineralölsteuergesetzes beschlossen, die eine Senkung der Mineralölsteuer um bis zu 6,7 Cent pro Liter für Oktober und November ermöglicht. Dazu kommt der Margendeckel per Verordnung.
+
+Die Regierung hatte die gesamte Entlastung inklusive Umsatzsteuereffekt mit rund 12 Cent pro Liter beziffert. Kurz vor dem Start lag der Dieselpreis laut E-Control im Schnitt bei rund 2,25 Euro, Super kostete etwa 1,94 Euro. In ersten Stichproben am Starttag stellten Autofahrerclubs Senkungen von meist sechs bis zehn Cent fest.
+
+## Vorgeschichte: Ein Instrument mit Unterbrechungen
+
+Der Margeneingriff ist politisch umstritten. Bereits im Frühjahr 2026 hatte die Koalition eine erste Spritpreisbremse mit Margenbegrenzung eingeführt. Ende Mai einigten sich ÖVP, SPÖ und NEOS darauf, den Eingriff in die Margen auslaufen zu lassen und im Sommer nur noch eine kleinere Steuersenkung beizubehalten. Die SPÖ hatte damals für eine Fortführung des Deckels plädiert, ÖVP und NEOS waren dagegen, die Wirtschaftskammer begrüßte das Ende.
+
+Mit der Neuauflage im Herbst kehrte der Deckel zurück. Die nun beschlossene Verlängerung sorgt dafür, dass er bis zum geplanten Ende der Steuersenkung bestehen bleibt.
+
+## Wie es nach dem 30. November weitergeht
+
+Ob die Spritpreisbremse über den November hinaus verlängert wird, ist offen. Ohne neuen Beschluss läuft die Mineralölsteuersenkung mit Ende November aus, und auch der verlängerte Margendeckel endet zu diesem Termin. Für eine weitere Senkung der Mineralölsteuer wäre erneut das Parlament gefragt, für den Margendeckel ein weiterer Regierungsbeschluss.
+
+Für Autofahrerinnen und Autofahrer bedeutet die Verlängerung vorerst, dass sich an den Preisen an der Zapfsäule zum Monatswechsel nichts sprunghaft ändern sollte. Die Einhaltung der Regeln überwacht die E-Control.','politik','Innenpolitik',NULL,'news','Presseinfo Redaktion','/assets/img/artikel/spritpreisbremse-margendeckel-verlaengert-30-november-2026.webp','Bundeskanzleramt – Umlaufbeschluss 68a vom 30. Oktober 2026','https://www.bundeskanzleramt.gv.at/medien/ministerraete/ministerraete-seit-maerz-2025/68a-ulb-30-okt.html','published','2026-10-30T11:45:00.000Z','2026-10-30T11:47:11.682Z','Spritpreisbremse: Margendeckel gilt bis 30. November','Spritpreisbremse verlängert: Der Margendeckel von 3,5 Cent pro Liter gilt nun bis 30. November. Was Autofahrer jetzt wissen müssen – die Fakten.','Spritpreisbremse','["Spritpreisbremse","Margendeckel","Spritpreise Österreich","Margenbegrenzung Treibstoffe","Spritpreisbremse November 2026","Mineralölsteuer Senkung","Dieselpreis Österreich","Preisgesetz 5aa","Umlaufbeschluss Ministerrat"]','Spritpreisbremse: Zapfpistole im Tank eines Autos an einer Tankstelle im Herbst','Fuel nozzle resting in a car''s open tank flap at an Austrian petrol station on an overcast late-autumn afternoon, wet asphalt, autumn leaves, alpine foothills in the background, no text, no logos, no readable signs','[{"q":"Bis wann gilt die Spritpreisbremse?","a":"Sowohl die Senkung der Mineralölsteuer als auch der Margendeckel gelten nach aktuellem Stand bis 30. November 2026."},{"q":"Wie hoch ist der Margendeckel?","a":"Die Marge der Mineralölunternehmen ist auf 3,5 Cent pro Liter begrenzt. Sinkende internationale Notierungen müssen weitergegeben werden."},{"q":"Wird die Spritpreisbremse über November hinaus verlängert?","a":"Das ist offen. Dafür wären ein neuer Parlamentsbeschluss zur Mineralölsteuer und eine weitere Verordnung der Regierung nötig."}]',0) ON CONFLICT(slug) DO UPDATE SET title=excluded.title, teaser=excluded.teaser, body=excluded.body, category=excluded.category, topic=excluded.topic, region=excluded.region, kind=excluded.kind, author=excluded.author, source_name=excluded.source_name, source_url=excluded.source_url, status=excluded.status, published_at=excluded.published_at, updated_at=excluded.updated_at, meta_title=excluded.meta_title, meta_description=excluded.meta_description, focus_keyword=excluded.focus_keyword, keywords=excluded.keywords, image_alt=excluded.image_alt, image_prompt=excluded.image_prompt, faq=excluded.faq, service=excluded.service, image=COALESCE(excluded.image, articles.image);
