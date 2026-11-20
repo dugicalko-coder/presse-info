@@ -121,5 +121,19 @@ export const submitLead = createServerFn({ method: "POST" })
       .prepare("INSERT INTO leads (partner, article_slug, name, phone, email, location, message, timing) VALUES (?,?,?,?,?,?,?,?)")
       .bind(data.partner, data.articleSlug, data.name, data.phone, data.email, data.location, data.message, data.timing)
       .run();
+    // Benachrichtigung per E-Mail (Zapier-Webhook, URL als Umgebungsvariable LEAD_WEBHOOK_URL)
+    const hook = (globalThis as { process?: { env?: Record<string, string | undefined> } }).process?.env?.LEAD_WEBHOOK_URL;
+    if (hook) {
+      try {
+        await fetch(hook, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ partner: data.partner, article_slug: data.articleSlug, name: data.name, phone: data.phone, email: data.email, location: data.location, message: data.message, timing: data.timing }),
+          signal: AbortSignal.timeout(5000),
+        });
+      } catch {
+        // Lead ist gespeichert; Benachrichtigung darf die Anfrage nicht scheitern lassen.
+      }
+    }
     return { ok: true as const, message: `${data.partner} meldet sich in Kürze telefonisch oder per E-Mail bei Ihnen.` };
   });
