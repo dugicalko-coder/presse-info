@@ -94,6 +94,7 @@ export const COMPANIES: { name: string; url: string }[] = [
   { name: "HausBauWien", url: "https://hausbauwien.at" },
   { name: "Abbruchabriss", url: "https://www.abbruchabriss.at" },
   { name: "KranWien", url: "https://kranwien.at" },
+  { name: "EpoxidProfi", url: "https://epoxidprofi.at" },
 ];
 
 export const SEO_KEYWORDS = [
@@ -128,12 +129,14 @@ const P = {
   fassade: { name: "Fassadenfirma.at", url: "https://www.fassadenfirma.at", service: "Fassade", pitch: "Fassadensanierung, Wärmedämmung und Anstrich vom Fachbetrieb." },
   pergola: { name: "JaPergola", url: "https://www.japergola.at", service: "Pergola", pitch: "Pergolen und Terrassenüberdachungen nach Maß für Garten und Terrasse." },
   best: { name: "Bestbieter", url: "https://www.bestbieter.at", service: "Angebotsvergleich", pitch: "Angebote geprüfter Fachbetriebe einholen und vergleichen." },
+  epoxid: { name: "EpoxidProfi", url: "https://epoxidprofi.at", service: "Epoxid-Bodenbeschichtung", pitch: "Epoxidharzböden für Garagen, Wohnungen, Keller und Hallen in Wien und Niederösterreich: Besichtigung mit Muster vor Ort und Fixangebot." },
   konz: { name: "Konzessionsuche.at", url: "https://www.konzessionsuche.at", service: "Gewerbe & Konzession", pitch: "Unterstützung rund um Gewerbeberechtigung, Konzession und gewerberechtliche Geschäftsführung." },
 } satisfies Record<string, Partner>;
 
 /** Passender Dienstleister fuer Beitraege mit Dienstleister-Bezug. */
 export function partnerFor(a: { category: string; topic: string | null; title: string; slug: string; service?: number | null }): Partner | null {
   const t = `${a.title} ${a.slug}`.toLowerCase();
+  if (/epoxid|garagenboden|bodenbeschichtung|hallenboden|industrieboden/.test(t)) return P.epoxid;
   if (/kran/.test(t)) return P.kran;
   if (/abbruch|abriss|entkern/.test(t)) return P.abbruch;
   if (/fassade|vollwärme|daemm|dämm/.test(t)) return P.fassade;

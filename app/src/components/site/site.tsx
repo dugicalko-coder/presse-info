@@ -441,7 +441,7 @@ function inline(text: string): ReactNode[] {
   while ((m = re.exec(text))) {
     if (m.index > last) parts.push(text.slice(last, m.index));
     if (m[1]) parts.push(<strong key={i++}>{m[1]}</strong>);
-    else parts.push(<a key={i++} href={m[3]} className="pi-link" rel={m[3].startsWith("http") ? "noopener" : undefined}>{m[2]}</a>);
+    else parts.push(<a key={i++} href={m[3]} className="pi-link" rel={m[3].startsWith("http") ? (/epoxidprofi\.at/.test(m[3]) ? "noopener sponsored" : "noopener") : undefined}>{m[2]}</a>);
     last = m.index + m[0].length;
   }
   if (last < text.length) parts.push(text.slice(last));
