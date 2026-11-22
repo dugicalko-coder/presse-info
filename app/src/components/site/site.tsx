@@ -198,7 +198,7 @@ export function SiteFooter() {
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {CATEGORIES.map((c) => (
             <div key={c.slug}>
-              <h2 className="font-pi-serif text-lg font-semibold text-white"><Link to="/rubrik/$slug" params={{ slug: c.slug }} search={{}} className="hover:text-pi-red-soft">{c.label}</Link></h2>
+              <p className="font-pi-serif text-lg font-semibold text-white"><Link to="/rubrik/$slug" params={{ slug: c.slug }} search={{}} className="hover:text-pi-red-soft">{c.label}</Link></p>
               <ul className="mt-3 space-y-1.5 text-sm">
                 {c.topics.map((t) => (
                   <li key={t}><Link to="/rubrik/$slug" params={{ slug: c.slug }} search={{ thema: topicSlug(t) }} className="hover:text-white">{t}</Link></li>
@@ -208,7 +208,7 @@ export function SiteFooter() {
           ))}
         </div>
         <div className="mt-12 border-t border-white/10 pt-8">
-          <h2 className="font-pi-mono text-[11px] uppercase tracking-widest text-white/50">Bundesländer</h2>
+          <p className="font-pi-mono text-[11px] uppercase tracking-widest text-white/50">Bundesländer</p>
           <ul className="mt-3 flex flex-wrap gap-x-5 gap-y-2 text-sm">
             {REGIONS.map((r) => <li key={r.slug}><Link to="/bundesland/$slug" params={{ slug: r.slug }} className="hover:text-white">{r.label}</Link></li>)}
           </ul>

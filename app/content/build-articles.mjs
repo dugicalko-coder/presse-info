@@ -41,7 +41,7 @@ for (const f of files) {
     const cols = {
       slug, title: a.title, teaser: a.teaser ?? "", body: a.body, category: a.category, topic, region, kind,
       author: a.author || "Presseinfo Redaktion", image, source_name: a.source_name, source_url: a.source_url,
-      status: "published", published_at: iso, updated_at: new Date().toISOString(),
+      status: "published", published_at: iso, updated_at: new Date(Math.max(Date.now(), Date.parse(iso))).toISOString(),
       meta_title: a.meta_title, meta_description: a.meta_description, focus_keyword: a.focus_keyword,
       keywords: Array.isArray(a.keywords) ? JSON.stringify(a.keywords) : a.keywords, image_alt: a.image_alt, image_prompt: a.image_prompt,
       faq: Array.isArray(a.faq) && a.faq.length ? JSON.stringify(a.faq) : null, service: a.service ? 1 : 0,

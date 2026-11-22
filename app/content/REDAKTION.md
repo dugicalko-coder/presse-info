@@ -15,9 +15,10 @@ region: wien, niederoesterreich, burgenland, oberoesterreich, steiermark, kaernt
 
 ## SEO (Yoast-Regeln)
 - Titel: wichtigstes Keyword ZUERST, so wie gesucht wird („PV-Anlage in Wien: …“, „Überfall in Wien-Favoriten: …“, „Politik Wien: …“), max. ca. 70 Zeichen.
-- focus_keyword (1–3 Wörter), keywords (6–10, kurze + Longtail), meta_title (≤60 Zeichen, Keyword zuerst), meta_description (130–155 Zeichen, Keyword am Anfang, Handlungsanreiz), slug (Keyword vorne, a-z0-9-, ≤70 Zeichen).
+- focus_keyword (1–3 Wörter), keywords (6–10, kurze + Longtail), meta_title (≤47 Zeichen, Keyword zuerst – die Seite hängt „ | Presseinfo“ an, gesamt ≤60), meta_description (130–155 Zeichen, Keyword am Anfang, Handlungsanreiz), slug (Keyword vorne, a-z0-9-, ≤70 Zeichen).
 - Fokus-Keyword im ersten Satz und in einer Zwischenüberschrift.
-- body 450–750 Wörter, Markdown nur: Absätze mit Leerzeile, „## “ Zwischenüberschriften (3–5), Listen „- “/„1. “, sparsam **fett**. Keine H1/Tabellen/HTML.
+- 1–2 interne Links im Fließtext auf passende bestehende Beiträge: [Ankertext](/artikel/<slug>), beschreibender Ankertext, nur Slugs aus der Datenbank (status='published').
+- body 450–750 Wörter, Markdown nur: Absätze mit Leerzeile, interne Links [Text](/artikel/slug), „## “ Zwischenüberschriften (3–5), Listen „- “/„1. “, sparsam **fett**. Keine H1/Tabellen/HTML.
 - faq: 2–3 kurze Fragen/Antworten. teaser ≤220 Zeichen.
 - image_prompt (Englisch, fotorealistisch, einzigartiges Motiv passend zum Beitrag, österreichischer Kontext, „no text, no logos, no readable signs“, keine realen Personen), image_alt (Deutsch, mit Keyword).
 - service: true bei Dienstleister-Themen (PV, Wärmepumpe, Heizung, Sanierung, Fassade, Hausbau, Kran, Abbruch, Pergola/Garten, Gewerbe/Konzession, Immobilien-Angebote) – dann erscheint im Beitrag die Partner-Empfehlung mit Leadformular.

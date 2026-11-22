@@ -15,6 +15,18 @@ const parseFaq = (s: string | null): Faq[] => {
   }
 };
 
+/** dateModified darf nie vor datePublished liegen (geplante Beiträge). */
+const modifiedAt = (a: { published_at: string; updated_at: string }) =>
+  new Date(a.updated_at).getTime() > new Date(a.published_at).getTime() ? a.updated_at : a.published_at;
+
+/** Fokus-Keyword + alle Keywords, ohne Duplikate. */
+const keywordList = (a: { focus_keyword: string | null; keywords: string | null }): string[] => {
+  let list: string[] = [];
+  try { list = a.keywords ? (JSON.parse(a.keywords) as string[]) : []; } catch { list = a.keywords ? a.keywords.split(",") : []; }
+  const all = [a.focus_keyword ?? "", ...list].map((k) => k.trim()).filter(Boolean);
+  return [...new Map(all.map((k) => [k.toLowerCase(), k])).values()];
+};
+
 export const Route = createFileRoute("/artikel/$slug")({
   loader: async ({ params }) => {
     const data = await getArticle({ data: { slug: params.slug } });
@@ -26,14 +38,14 @@ export const Route = createFileRoute("/artikel/$slug")({
     const a = loaderData.article;
     const description = a.meta_description || a.teaser;
     const base = pageHead({ title: a.meta_title || a.title, description, path: `/artikel/${params.slug}`, image: shareImageFor(a), type: "article" });
-    const kw = (() => { try { return a.keywords ? (JSON.parse(a.keywords) as string[]).join(", ") : ""; } catch { return a.keywords ?? ""; } })();
+    const kw = keywordList(a).join(", ");
     return {
       ...base,
       meta: [
         ...base.meta,
         ...(kw ? [{ name: "keywords", content: kw }] : []),
         { property: "article:published_time", content: a.published_at },
-        { property: "article:modified_time", content: a.updated_at },
+        { property: "article:modified_time", content: modifiedAt(a) },
         { property: "article:section", content: categoryBySlug(a.category)?.label ?? "" },
         ...(a.image_alt ? [{ property: "og:image:alt", content: a.image_alt }] : []),
       ],
@@ -60,8 +72,8 @@ function ArticlePage() {
           description: a.meta_description || a.teaser,
           image: [abs(shareImageFor(a))],
           datePublished: a.published_at,
-          dateModified: a.updated_at,
-          keywords: a.focus_keyword ?? undefined,
+          dateModified: modifiedAt(a),
+          keywords: keywordList(a).length ? keywordList(a).join(", ") : undefined,
           author: isPress && a.sender ? { "@type": "Organization", name: a.sender, url: a.sender_url ?? undefined } : { "@type": "Organization", name: a.author, url: `${SITE_URL}/redaktion` },
           publisher: { "@type": "NewsMediaOrganization", name: SITE.name, logo: { "@type": "ImageObject", url: `${SITE_URL}/icon-512.png` } },
           mainEntityOfPage: abs(`/artikel/${a.slug}`),
@@ -144,7 +156,7 @@ function ArticlePage() {
         ) : null}
 
         <div className="mt-14 bg-pi-ink p-6 text-white md:p-8">
-          <h2 className="font-pi-serif text-2xl font-semibold">Der Presseinfo-Brief</h2>
+          <p className="font-pi-serif text-2xl font-semibold">Der Presseinfo-Brief</p>
           <p className="mb-5 mt-2 text-white/70">Die wichtigsten Nachrichten aus Österreich, jeden Morgen kostenlos im Postfach.</p>
           <NewsletterForm dark />
         </div>
