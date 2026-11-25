@@ -1,0 +1,36 @@
+-- Redaktionsbeiträge (generiert aus content-JSON)
+INSERT INTO articles (slug,title,teaser,body,category,topic,region,kind,author,image,source_name,source_url,status,published_at,updated_at,meta_title,meta_description,focus_keyword,keywords,image_alt,image_prompt,faq,service) VALUES ('budget-wien-2027-voranschlag-defizit-1-46-milliarden','Budget Wien 2027: 22,24 Milliarden, Defizit sinkt','Wien plant für 2027 mit 22,24 Milliarden Euro an Ausgaben und einem deutlich kleineren Minus. Neue Gebühren soll es nicht geben, gespart wird fast in allen Ressorts.','Das **Budget Wien 2027** steht im Entwurf: Finanzstadträtin Barbara Novak (SPÖ) hat am Montag gemeinsam mit NEOS-Finanzsprecher Markus Ornig und Finanzdirektor Christoph Maschek den Voranschlag für das kommende Jahr präsentiert. Die Stadt rechnet mit Ausgaben von 22,24 Milliarden Euro und Einnahmen von 20,78 Milliarden Euro. Daraus ergibt sich ein Abgang von 1,46 Milliarden Euro.
+
+Im Voranschlag für 2026 war das Minus noch mit 2,62 Milliarden Euro angesetzt. Die rot-pinke Stadtregierung will den Fehlbetrag also um mehr als eine Milliarde Euro verringern. Beschlossen ist das Zahlenwerk noch nicht: Der Wiener Gemeinderat soll das Budget Ende Dezember debattieren und abstimmen.
+
+## Budget Wien 2027: Keine neuen Abgaben
+
+Zentrale Botschaft der Koalition: Für 2027 sind keine neuen Steuern oder Abgaben vorgesehen. Gebühren sollen nur dort angehoben werden, wo die Valorisierung gesetzlich vorgeschrieben ist. Eine zuletzt diskutierte Haushaltsabgabe zur Kulturfinanzierung kommt laut Ornig nicht. Die Koalition setzt stattdessen auf Einsparungen auf der Ausgabenseite.
+
+Rund 44 Prozent der Einnahmen stammen aus Ertragsanteilen und Transfers, also vor allem aus dem Steuerkuchen, den der Bund mit Ländern und Gemeinden teilt. Novak bezeichnete das Umfeld als weiterhin schwierig. Die Stadt liegt nach ihren Angaben bewusst rund eine halbe Milliarde Euro über den Defizitvorgaben des Stabilitätspakts, weil eine noch stärkere Konsolidierung ohne spürbare Leistungskürzungen kaum möglich sei. Bis 2029 soll das Maastricht-Defizit wieder im Rahmen liegen, um ein EU-Defizitverfahren zu vermeiden. Wie eng der finanzielle Spielraum auch auf europäischer Ebene wird, zeigt die Debatte um den [EU-Haushalt 2028 bis 2034](/artikel/eu-budget-2028-2034-costa-vorschlag-oesterreich-bauer-sondergipfel).
+
+## Wofür Wien 2027 das Geld ausgibt
+
+Der größte Brocken entfällt auf die Geschäftsgruppe Soziales und Gesundheit:
+
+- Soziales, Gesundheit und Sport: 7,26 Milliarden Euro
+- Finanzen, Wirtschaft, Arbeit, Internationales und Digitales: 5,33 Milliarden Euro
+- Bildung, Jugend, Integration, Transparenz und Märkte: 5,12 Milliarden Euro
+- Klima, Umwelt, Demokratie und Personal: 2,1 Milliarden Euro
+- Wohnen, Wohnbau, Stadterneuerung und Frauen: 925 Millionen Euro
+- Stadtentwicklung, Mobilität und Stadtwerke: 520 Millionen Euro
+- Kultur und Wissenschaft: 338 Millionen Euro
+
+Investiert werden sollen rund 3,7 Milliarden Euro. Geplant sind unter anderem mindestens fünf neue Primärversorgungseinheiten, neue Gemeindebauten in Floridsdorf und Döbling sowie ein Schulbauprogramm mit 21 neuen Schulen bis 2030. Im Bildungsbereich gibt es ein leichtes Plus, etwa für die angekündigte Kindergartenreform. Wie die Anmeldung für das nächste Kindergartenjahr läuft, steht in unserem Beitrag zur [Kindergarten-Anmeldung in Wien](/artikel/kindergarten-anmeldung-wien-2027-28-hauptanmeldezeit-1-november). Die Bezirksbudgets steigen nach dem Einfrieren im Jahr 2026 um 21 Millionen auf 292 Millionen Euro.
+
+## Sparkurs auch bei der Politik
+
+Gespart wird in nahezu allen Ressorts. Genannt wurden ein strengerer Budgetvollzug, Änderungen im Förderwesen, das Verschieben einzelner Investitionen und ein Verwaltungspaket. Auch die bereits umgesetzten Einschnitte bei der Mindestsicherung fließen ein. Die Politik selbst trägt laut Stadt etwa zwei Millionen Euro bei: Die Gehälter der Politikerinnen und Politiker steigen nur um ein Prozent, die Parteienförderung wird lediglich um die halbe Inflationsrate angehoben.
+
+Beim Schuldenstand rechnet die Stadt laut Voranschlag für 2027 mit rund 18,4 Milliarden Euro. Fällt das Ergebnis für 2026 um 250 Millionen Euro besser aus als geplant, könnten es laut Finanzdirektor Maschek rund 17,4 Milliarden Euro werden. Für 2030 wird ein Stand von 20,24 Milliarden Euro erwartet. Die jährlichen Defizite sollen bis dahin auf 1,16 Milliarden (2028), 770 Millionen (2029) und 790 Millionen Euro (2030) sinken.
+
+## Opposition übt scharfe Kritik
+
+Die Oppositionsparteien sehen den Entwurf kritisch. FPÖ-Landesparteiobmann Dominik Nepp sprach von einer „finanzpolitischen Bankrotterklärung“ und kündigte an, die Defizitreduktion genau zu prüfen. Die Grünen werfen der SPÖ vor, bei Sozialem, Pflege und Klimaanpassung zu kürzen, während Leerstands- und Zweitwohnsitzabgaben weiterhin fehlen. Die ÖVP Wien unter Markus Figl fordert einen schlankeren Haushalt und eine gesetzliche Schuldenbremse nach oberösterreichischem Vorbild.
+
+Die endgültige Entscheidung fällt im Gemeinderat Ende Dezember, wo SPÖ und NEOS über eine Mehrheit verfügen.','politik','Gemeinden','wien','news','Presseinfo Redaktion','/assets/img/artikel/budget-wien-2027-voranschlag-defizit-1-46-milliarden.webp','APA / news.at','https://www.news.at/politik/wien-plant-2027-reduktion-des-defizits','published','2026-11-25T16:45:00.000Z','2026-11-25T16:45:00.000Z','Budget Wien 2027: Defizit sinkt auf 1,46 Mrd.','Budget Wien 2027: 22,24 Mrd. Euro Ausgaben, 1,46 Mrd. Defizit, keine neuen Gebühren. Wo die Stadt spart, was sie investiert und was die Opposition sagt.','Budget Wien 2027','["Budget Wien 2027","Voranschlag 2027 Wien","Wiener Stadtbudget","Defizit Wien","Schulden Wien","Gebühren Wien 2027","Barbara Novak Budget","Gemeinderat Wien Budget Dezember"]','Budget Wien 2027: Wiener Rathaus in der Abenddämmerung','Vienna city hall neo-gothic facade at dusk in late November, seen from Rathausplatz, empty council chamber lights glowing in windows, wet cobblestones, autumn trees without leaves, calm atmosphere, no people in focus, no text, no logos, no readable signs','[{"q":"Wie hoch ist das Budget Wien 2027?","a":"Der Voranschlag sieht Ausgaben von 22,24 Milliarden Euro und Einnahmen von 20,78 Milliarden Euro vor, das Defizit liegt bei 1,46 Milliarden Euro."},{"q":"Steigen in Wien 2027 die Gebühren?","a":"Neue Abgaben sind nicht geplant. Gebühren werden nur dort angepasst, wo die Valorisierung gesetzlich vorgeschrieben ist."},{"q":"Wann wird das Wiener Budget 2027 beschlossen?","a":"Der Wiener Gemeinderat soll den Voranschlag Ende Dezember 2026 debattieren und beschließen."}]',0) ON CONFLICT(slug) DO UPDATE SET title=excluded.title, teaser=excluded.teaser, body=excluded.body, category=excluded.category, topic=excluded.topic, region=excluded.region, kind=excluded.kind, author=excluded.author, source_name=excluded.source_name, source_url=excluded.source_url, status=excluded.status, published_at=excluded.published_at, updated_at=excluded.updated_at, meta_title=excluded.meta_title, meta_description=excluded.meta_description, focus_keyword=excluded.focus_keyword, keywords=excluded.keywords, image_alt=excluded.image_alt, image_prompt=excluded.image_prompt, faq=excluded.faq, service=excluded.service, image=COALESCE(excluded.image, articles.image);
