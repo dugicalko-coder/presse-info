@@ -1,0 +1,35 @@
+-- Redaktionsbeiträge (generiert aus content-JSON)
+INSERT INTO articles (slug,title,teaser,body,category,topic,region,kind,author,image,source_name,source_url,status,published_at,updated_at,meta_title,meta_description,focus_keyword,keywords,image_alt,image_prompt,faq,service) VALUES ('social-media-verbot-unter-14-verschoben-gesund-aus-der-krise-psyche','Social-Media-Verbot unter 14: Verschiebung, Psyche leidet','Das geplante Social-Media-Verbot unter 14 verzögert sich bis mindestens Ende Juli 2027. Fachleute aus Psychologie und Psychotherapie sehen dennoch dringenden Handlungsbedarf.','Das Social-Media-Verbot unter 14, das in Österreich ursprünglich mit Jänner starten sollte, verzögert sich: Weil die EU-Kommission Ende Oktober die sogenannte Stillhaltefrist für nationale Regeln um ein Jahr verlängert hat, kann die Altersgrenze frühestens Ende Juli 2027 in Kraft treten. Das Projekt „Gesund aus der Krise“, getragen vom Berufsverband Österreichischer Psychologinnen und Psychologen (BÖP), warnt nun davor, das Thema bis dahin aus den Augen zu verlieren.
+
+## Warum sich das Social-Media-Verbot unter 14 verzögert
+
+Will ein EU-Mitgliedstaat Regeln für digitale Dienste einführen, muss er diese in Brüssel notifizieren. Während der Prüfung gilt eine Wartefrist, in der die nationale Regelung nicht umgesetzt werden darf. Diese Frist wurde nun verlängert. Gesundheits- und Sozialministerin Korinna Schumann betont in der Aussendung, verbindliche Regeln zum Schutz junger Menschen seien weiterhin nötig, die spätere Umsetzung ändere „nichts an der Dringlichkeit“.
+
+Im Mai hatte das Projekt bereits Daten zu den Folgen übermäßiger Social-Media-Nutzung präsentiert. Klare Vorgaben samt Altersgrenze wurden damals von den Fachleuten als wichtiger Schritt begrüßt.
+
+## Was Behandlerinnen und Behandler beobachten
+
+Grundlage der Warnung ist eine Befragung von 324 Behandlerinnen und Behandlern aus dem Projekt, durchgeführt im Frühjahr. Die wichtigsten Ergebnisse:
+
+- 74 Prozent stellen bei ihren jungen Klientinnen und Klienten eine problematische Nutzung sozialer Medien fest, ein Drittel bereits bei Zehn- bis 13-Jährigen.
+- 82 Prozent berichten, dass Kinder und Jugendliche ihre Nutzung oft nicht selbst beenden können.
+- 70 Prozent sehen den Schlaf durch nächtliche Nutzung beeinträchtigt.
+- 87 Prozent erleben Eltern im Umgang mit dem Medienkonsum ihrer Kinder als überfordert.
+
+Zu Stichprobe und Methodik macht die Aussendung keine näheren Angaben; es handelt sich um eine Befragung von Fachleuten, nicht um eine repräsentative Erhebung unter Jugendlichen. Einen breiteren Blick auf das Thema bietet unser Beitrag zur [GÖG-Analyse über Social Media und die Psyche Jugendlicher](/artikel/social-media-jugendliche-goeg-analyse-psyche-youthvoice).
+
+## Workshops für Fachleute statt Warten
+
+Das Projekt will die Zeit bis zum Inkrafttreten nutzen. BÖP-Präsidentin Beate Wimmer-Puchinger, Gesamtleiterin von „Gesund aus der Krise“, kündigt an, die Kompetenz der Behandelnden schon jetzt gezielt auszubauen. Dafür gibt es laufend Workshops zu Symptomen, Strategien und Maßnahmen bei problematischer Nutzung.
+
+Auch Barbara Haid, Präsidentin des Österreichischen Bundesverbands für Psychotherapie (ÖBVP), sieht Bedarf: Therapeutinnen und Therapeuten müssten erkennen, wo problematisches Verhalten beginnt, und wissen, wie sie mit Jugendlichen und deren Eltern daran arbeiten können.
+
+## Kostenlose Hilfe für junge Menschen bis 21
+
+„Gesund aus der Krise“ bietet Kindern, Jugendlichen und jungen Erwachsenen bis einschließlich 21 Jahre österreichweit kostenlose Behandlung an – klinisch-psychologisch, gesundheitspsychologisch, psychotherapeutisch oder musiktherapeutisch. Laut Projekt stehen rund 1.600 Behandelnde zur Verfügung, die Betreuung ist in 27 Sprachen möglich. Seit dem Start im Jahr 2022 wurden mehr als 70.000 junge Menschen unterstützt. Die Finanzierung durch das Sozial- und Gesundheitsministerium ist für das gesamte Schuljahr 2026/27 gesichert. Neben dem BÖP sind der ÖBVP und der Österreichische Berufsverband für Musiktherapie beteiligt.
+
+Die Anmeldung erfolgt über die Website des Projekts. In akuten Krisen ist zudem die Telefonseelsorge rund um die Uhr unter 142 erreichbar, für Kinder und Jugendliche gibt es Rat auf Draht unter 147.
+
+## Was Eltern jetzt tun können
+
+Bis eine gesetzliche Altersgrenze gilt, liegt die Verantwortung weiter vor allem in den Familien. Die Befragung zeigt, dass gerade Schlafprobleme und fehlende Selbstkontrolle häufig genannt werden. Wer bei seinem Kind Rückzug, Schlafmangel oder Konflikte rund um das Handy bemerkt, kann sich frühzeitig fachliche Unterstützung holen – etwa über das kostenlose Angebot des Projekts.','gesundheit','Psyche',NULL,'news','Presseinfo Redaktion','/assets/img/artikel/social-media-verbot-unter-14-verschoben-gesund-aus-der-krise-psyche.webp','BÖP / Gesund aus der Krise (APA-OTS)','https://www.ots.at/presseaussendung/OTS_20261126_OTS0011/gesund-aus-der-krise-social-media-bleibt-brandherd-auch-wenn-das-verbot-spaeter-kommt','published','2026-11-27T11:43:00.000Z','2026-11-27T11:44:03.156Z','Social-Media-Verbot unter 14 verschoben','Social-Media-Verbot unter 14 kommt frühestens Ende Juli 2027. Was Behandler bei Jugendlichen beobachten und wo es kostenlose Hilfe gibt – jetzt lesen.','Social-Media-Verbot unter 14','["Social-Media-Verbot unter 14","Social Media Jugendliche Psyche","Gesund aus der Krise","Social-Media-Verbot Österreich verschoben","Psychotherapie Jugendliche kostenlos","Schlaf Handy Jugendliche","BÖP Umfrage Social Media","EU Stillhaltefrist Social Media"]','Social-Media-Verbot unter 14: Leuchtendes Smartphone nachts im Jugendzimmer','A teenager''s bedroom at night in an Austrian apartment, a smartphone glowing on a pillow beside a rumpled duvet, soft blue screen light, window with distant city lights, nobody visible, moody and quiet','[{"q":"Wann kommt das Social-Media-Verbot unter 14 in Österreich?","a":"Nach der Verlängerung der EU-Stillhaltefrist frühestens Ende Juli 2027 statt wie geplant im Jänner."},{"q":"Wo gibt es kostenlose psychologische Hilfe für Jugendliche?","a":"Über das Projekt „Gesund aus der Krise“ erhalten junge Menschen bis einschließlich 21 Jahre österreichweit kostenlose Behandlung."},{"q":"Was beobachten Fachleute bei Jugendlichen?","a":"In einer Befragung von 324 Behandelnden sahen 74 Prozent problematische Social-Media-Nutzung, 70 Prozent Schlafprobleme durch nächtliche Nutzung."}]',0) ON CONFLICT(slug) DO UPDATE SET title=excluded.title, teaser=excluded.teaser, body=excluded.body, category=excluded.category, topic=excluded.topic, region=excluded.region, kind=excluded.kind, author=excluded.author, source_name=excluded.source_name, source_url=excluded.source_url, status=excluded.status, published_at=excluded.published_at, updated_at=excluded.updated_at, meta_title=excluded.meta_title, meta_description=excluded.meta_description, focus_keyword=excluded.focus_keyword, keywords=excluded.keywords, image_alt=excluded.image_alt, image_prompt=excluded.image_prompt, faq=excluded.faq, service=excluded.service, image=COALESCE(excluded.image, articles.image);
